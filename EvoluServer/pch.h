@@ -28,3 +28,6 @@
 #include <stack>
 
 #include "define.h"
+#include "system\interface.h"
+#include "thread\interface.h"
+#include "windows\interface.h"

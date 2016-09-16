@@ -16,6 +16,15 @@
     <Filter Include="pch">
       <UniqueIdentifier>{7f6f9f41-e96e-4905-bb0f-cab1125dfab2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="windows">
+      <UniqueIdentifier>{d418bd4b-9065-4eba-bba8-95b5971696a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system">
+      <UniqueIdentifier>{41c6621c-cd8c-4613-9e18-e744bb5a1a84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thread">
+      <UniqueIdentifier>{1bed6d3f-2c14-41d5-900c-fc286e5b74d2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -23,6 +32,27 @@
     </ClCompile>
     <ClCompile Include="pch.cpp">
       <Filter>pch</Filter>
+    </ClCompile>
+    <ClCompile Include="windows\app.cpp">
+      <Filter>windows</Filter>
+    </ClCompile>
+    <ClCompile Include="system\Object.cpp">
+      <Filter>system</Filter>
+    </ClCompile>
+    <ClCompile Include="system\Counter.cpp">
+      <Filter>system</Filter>
+    </ClCompile>
+    <ClCompile Include="thread\Lock.cpp">
+      <Filter>thread</Filter>
+    </ClCompile>
+    <ClCompile Include="thread\Thread.cpp">
+      <Filter>thread</Filter>
+    </ClCompile>
+    <ClCompile Include="thread\ThreadLoop.cpp">
+      <Filter>thread</Filter>
+    </ClCompile>
+    <ClCompile Include="thread\ThreadPool.cpp">
+      <Filter>thread</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -32,5 +62,51 @@
     <ClInclude Include="define.h">
       <Filter>header</Filter>
     </ClInclude>
+    <ClInclude Include="windows\app.h">
+      <Filter>windows</Filter>
+    </ClInclude>
+    <ClInclude Include="windows\interface.h">
+      <Filter>windows</Filter>
+    </ClInclude>
+    <ClInclude Include="windows\resource.h">
+      <Filter>windows</Filter>
+    </ClInclude>
+    <ClInclude Include="system\interface.h">
+      <Filter>system</Filter>
+    </ClInclude>
+    <ClInclude Include="system\Object.h">
+      <Filter>system</Filter>
+    </ClInclude>
+    <ClInclude Include="system\Singleton.h">
+      <Filter>system</Filter>
+    </ClInclude>
+    <ClInclude Include="system\Counter.h">
+      <Filter>system</Filter>
+    </ClInclude>
+    <ClInclude Include="thread\interface.h">
+      <Filter>thread</Filter>
+    </ClInclude>
+    <ClInclude Include="thread\Lock.h">
+      <Filter>thread</Filter>
+    </ClInclude>
+    <ClInclude Include="thread\Thread.h">
+      <Filter>thread</Filter>
+    </ClInclude>
+    <ClInclude Include="thread\ThreadLoop.h">
+      <Filter>thread</Filter>
+    </ClInclude>
+    <ClInclude Include="thread\ThreadPool.h">
+      <Filter>thread</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="windows\EvoluServer.rc">
+      <Filter>resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="windows\icon1.ico">
+      <Filter>resources</Filter>
+    </Image>
   </ItemGroup>
 </Project>
